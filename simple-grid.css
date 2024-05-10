@@ -123,6 +123,9 @@ p {
 .col-12 {
   width: 96%;
 }
+.col-12, tr, th, td{
+  border: 1px solid black;
+}
 
 .col-1-sm {
   width: 4.33%;
