@@ -1,0 +1,80 @@
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    width: 90%;
+    padding: 1em;
+    background-color: aqua;
+}
+
+p{
+    line-height: 30px;
+}
+
+hr{
+    margin: 2em auto;
+    height: 2px;
+    background-color: black;
+    border: 1px solid gray;
+}
+
+
+.profilePic{
+    border-radius: 15em;
+    width: 18em;
+}
+.contactIcon{
+    border-radius: 13em;
+}
+
+.istImage{
+    width: 80%;
+}
+
+.cityDescription{
+    flex: 1;
+    line-height: 30px;
+}
+
+.tableLanguage, tr, th, td{
+    border: 1px solid black;
+}
+
+.tableLanguage{
+    margin-left: auto;
+    margin-right: auto;
+}
+#webText{
+    text-align: center;
+}
+.btnContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexButton{
+    margin-bottom: 15px;
+}
+
+@media (min-width:760px){
+    .Intro, 
+    .contactDetails,
+    .city,
+    .histFlex{
+        display: flex;
+        justify-content: space-between;
+        margin: 1em;
+    }
+    .placeInfo{
+        display: flex;
+        flex: 3;
+    }
+    .placePic{
+        margin-right: 5px;
+        flex: 1;
+    }
+    .cityPI{
+        flex: 1;
+    }
+}
