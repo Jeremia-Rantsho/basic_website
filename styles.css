@@ -44,7 +44,8 @@ hr{
     margin-left: auto;
     margin-right: auto;
 }
-#webText{
+#webText,
+.favSubjects{
     text-align: center;
 }
 .btnContainer{
@@ -52,9 +53,17 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 70px;
 }
 .flexButton{
     margin-bottom: 15px;
+}
+
+/*favourite subjects styling*/
+.subjectImg,
+.subjectImg01,
+.subjectImg02{
+    width: 90%;
 }
 
 .bodyBackground{
@@ -68,7 +77,8 @@ hr{
     .Intro, 
     .contactDetails,
     .city,
-    .histFlex{
+    .histFlex,
+    .subjects{
         display: flex;
         justify-content: space-between;
         margin: 1em;
