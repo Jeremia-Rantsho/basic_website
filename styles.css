@@ -57,6 +57,13 @@ hr{
     margin-bottom: 15px;
 }
 
+.bodyBackground{
+    background-image: url(images/Table-Mountain_GettyImages.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 @media (min-width:760px){
     .Intro, 
     .contactDetails,
