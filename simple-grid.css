@@ -159,6 +159,7 @@ p {
 
 .col-6-sm {
   width: 46%;
+  display: inline-block;
 }
 
 .col-7-sm {
@@ -183,6 +184,8 @@ p {
 
 .col-12-sm {
   width: 96%;
+  
+
 }
 
 .row::after {
@@ -200,6 +203,10 @@ p {
 
 #mobilePic{
   display: inline-block;
+}
+
+.myFooter{
+  margin-top: 60px;
 }
 
 @media only screen and (min-width: 33.75em) {  /* 540px */
