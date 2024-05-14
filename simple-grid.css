@@ -194,6 +194,13 @@ p {
 .hidden-sm {
   display: none;
 }
+#desktopPic{
+  display: none;
+}
+
+#mobilePic{
+  display: inline-block;
+}
 
 @media only screen and (min-width: 33.75em) {  /* 540px */
   .container {
@@ -259,5 +266,12 @@ p {
   .container {
     width: 75%;
     max-width: 60rem;
+  }
+  #mobilePic{
+    display: none;
+  }
+
+  #desktopPic{
+      display: inline-block;
   }
 }
