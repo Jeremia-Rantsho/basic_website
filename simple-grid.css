@@ -16,19 +16,24 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
-
+  background-color: #023519;
 }
 
-#intro{
-  
-}
+
 
 /* ROOT FONT STYLES */
 
 * {
   font-family: 'Lato', Helvetica, sans-serif;
-  color: #333447;
+  color: white;
   line-height: 1.5;
+}
+
+#intro{
+  background-image: url(images/Table-Mountain_GettyImages.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 /* TYPOGRAPHY */
